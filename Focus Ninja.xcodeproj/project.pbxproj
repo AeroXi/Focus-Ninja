@@ -14,6 +14,7 @@
 		DAA427D32C2EFEFB008D3BF8 /* Focus_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427D22C2EFEFB008D3BF8 /* Focus_NinjaTests.swift */; };
 		DAA427DD2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427DC2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift */; };
 		DAA427DF2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427DE2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift */; };
+		DAA427EC2C2EFF4B008D3BF8 /* DeviceOrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427EB2C2EFF4B008D3BF8 /* DeviceOrientationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DAA427D82C2EFEFB008D3BF8 /* Focus NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus NinjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA427DC2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaUITests.swift; sourceTree = "<group>"; };
 		DAA427DE2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAA427EB2C2EFF4B008D3BF8 /* DeviceOrientationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DAA427C32C2EFEFA008D3BF8 /* ContentView.swift */,
 				DAA427C52C2EFEFB008D3BF8 /* Assets.xcassets */,
 				DAA427C72C2EFEFB008D3BF8 /* Preview Content */,
+				DAA427EB2C2EFF4B008D3BF8 /* DeviceOrientationManager.swift */,
 			);
 			path = "Focus Ninja";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				DAA427C42C2EFEFA008D3BF8 /* ContentView.swift in Sources */,
 				DAA427C22C2EFEFA008D3BF8 /* Focus_NinjaApp.swift in Sources */,
+				DAA427EC2C2EFF4B008D3BF8 /* DeviceOrientationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Focus Ninja/Preview Content\"";
+				DEVELOPMENT_TEAM = A78FSX47CH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Focus Ninja/Preview Content\"";
+				DEVELOPMENT_TEAM = A78FSX47CH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
