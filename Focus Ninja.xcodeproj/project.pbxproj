@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA427C22C2EFEFA008D3BF8 /* Focus_NinjaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427C12C2EFEFA008D3BF8 /* Focus_NinjaApp.swift */; };
+		DAA427C42C2EFEFA008D3BF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427C32C2EFEFA008D3BF8 /* ContentView.swift */; };
+		DAA427C62C2EFEFB008D3BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA427C52C2EFEFB008D3BF8 /* Assets.xcassets */; };
+		DAA427C92C2EFEFB008D3BF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA427C82C2EFEFB008D3BF8 /* Preview Assets.xcassets */; };
+		DAA427D32C2EFEFB008D3BF8 /* Focus_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427D22C2EFEFB008D3BF8 /* Focus_NinjaTests.swift */; };
+		DAA427DD2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427DC2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift */; };
+		DAA427DF2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA427DE2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA427CF2C2EFEFB008D3BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA427B62C2EFEFA008D3BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA427BD2C2EFEFA008D3BF8;
+			remoteInfo = "Focus Ninja";
+		};
+		DAA427D92C2EFEFB008D3BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA427B62C2EFEFA008D3BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA427BD2C2EFEFA008D3BF8;
+			remoteInfo = "Focus Ninja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA427BE2C2EFEFA008D3BF8 /* Focus Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA427C12C2EFEFA008D3BF8 /* Focus_NinjaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaApp.swift; sourceTree = "<group>"; };
+		DAA427C32C2EFEFA008D3BF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAA427C52C2EFEFB008D3BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA427C82C2EFEFB008D3BF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAA427CE2C2EFEFB008D3BF8 /* Focus NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA427D22C2EFEFB008D3BF8 /* Focus_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaTests.swift; sourceTree = "<group>"; };
+		DAA427D82C2EFEFB008D3BF8 /* Focus NinjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus NinjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA427DC2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaUITests.swift; sourceTree = "<group>"; };
+		DAA427DE2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_NinjaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA427BB2C2EFEFA008D3BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427CB2C2EFEFB008D3BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427D52C2EFEFB008D3BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA427B52C2EFEFA008D3BF8 = {
+			isa = PBXGroup;
+			children = (
+				DAA427C02C2EFEFA008D3BF8 /* Focus Ninja */,
+				DAA427D12C2EFEFB008D3BF8 /* Focus NinjaTests */,
+				DAA427DB2C2EFEFB008D3BF8 /* Focus NinjaUITests */,
+				DAA427BF2C2EFEFA008D3BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA427BF2C2EFEFA008D3BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA427BE2C2EFEFA008D3BF8 /* Focus Ninja.app */,
+				DAA427CE2C2EFEFB008D3BF8 /* Focus NinjaTests.xctest */,
+				DAA427D82C2EFEFB008D3BF8 /* Focus NinjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA427C02C2EFEFA008D3BF8 /* Focus Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				DAA427C12C2EFEFA008D3BF8 /* Focus_NinjaApp.swift */,
+				DAA427C32C2EFEFA008D3BF8 /* ContentView.swift */,
+				DAA427C52C2EFEFB008D3BF8 /* Assets.xcassets */,
+				DAA427C72C2EFEFB008D3BF8 /* Preview Content */,
+			);
+			path = "Focus Ninja";
+			sourceTree = "<group>";
+		};
+		DAA427C72C2EFEFB008D3BF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAA427C82C2EFEFB008D3BF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAA427D12C2EFEFB008D3BF8 /* Focus NinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA427D22C2EFEFB008D3BF8 /* Focus_NinjaTests.swift */,
+			);
+			path = "Focus NinjaTests";
+			sourceTree = "<group>";
+		};
+		DAA427DB2C2EFEFB008D3BF8 /* Focus NinjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA427DC2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift */,
+				DAA427DE2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift */,
+			);
+			path = "Focus NinjaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA427BD2C2EFEFA008D3BF8 /* Focus Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA427E22C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus Ninja" */;
+			buildPhases = (
+				DAA427BA2C2EFEFA008D3BF8 /* Sources */,
+				DAA427BB2C2EFEFA008D3BF8 /* Frameworks */,
+				DAA427BC2C2EFEFA008D3BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Focus Ninja";
+			productName = "Focus Ninja";
+			productReference = DAA427BE2C2EFEFA008D3BF8 /* Focus Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA427CD2C2EFEFB008D3BF8 /* Focus NinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA427E52C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus NinjaTests" */;
+			buildPhases = (
+				DAA427CA2C2EFEFB008D3BF8 /* Sources */,
+				DAA427CB2C2EFEFB008D3BF8 /* Frameworks */,
+				DAA427CC2C2EFEFB008D3BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA427D02C2EFEFB008D3BF8 /* PBXTargetDependency */,
+			);
+			name = "Focus NinjaTests";
+			productName = "Focus NinjaTests";
+			productReference = DAA427CE2C2EFEFB008D3BF8 /* Focus NinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA427D72C2EFEFB008D3BF8 /* Focus NinjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA427E82C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus NinjaUITests" */;
+			buildPhases = (
+				DAA427D42C2EFEFB008D3BF8 /* Sources */,
+				DAA427D52C2EFEFB008D3BF8 /* Frameworks */,
+				DAA427D62C2EFEFB008D3BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA427DA2C2EFEFB008D3BF8 /* PBXTargetDependency */,
+			);
+			name = "Focus NinjaUITests";
+			productName = "Focus NinjaUITests";
+			productReference = DAA427D82C2EFEFB008D3BF8 /* Focus NinjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA427B62C2EFEFA008D3BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DAA427BD2C2EFEFA008D3BF8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DAA427CD2C2EFEFB008D3BF8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DAA427BD2C2EFEFA008D3BF8;
+					};
+					DAA427D72C2EFEFB008D3BF8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DAA427BD2C2EFEFA008D3BF8;
+					};
+				};
+			};
+			buildConfigurationList = DAA427B92C2EFEFA008D3BF8 /* Build configuration list for PBXProject "Focus Ninja" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA427B52C2EFEFA008D3BF8;
+			productRefGroup = DAA427BF2C2EFEFA008D3BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA427BD2C2EFEFA008D3BF8 /* Focus Ninja */,
+				DAA427CD2C2EFEFB008D3BF8 /* Focus NinjaTests */,
+				DAA427D72C2EFEFB008D3BF8 /* Focus NinjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA427BC2C2EFEFA008D3BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA427C92C2EFEFB008D3BF8 /* Preview Assets.xcassets in Resources */,
+				DAA427C62C2EFEFB008D3BF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427CC2C2EFEFB008D3BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427D62C2EFEFB008D3BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA427BA2C2EFEFA008D3BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA427C42C2EFEFA008D3BF8 /* ContentView.swift in Sources */,
+				DAA427C22C2EFEFA008D3BF8 /* Focus_NinjaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427CA2C2EFEFB008D3BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA427D32C2EFEFB008D3BF8 /* Focus_NinjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA427D42C2EFEFB008D3BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA427DF2C2EFEFB008D3BF8 /* Focus_NinjaUITestsLaunchTests.swift in Sources */,
+				DAA427DD2C2EFEFB008D3BF8 /* Focus_NinjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA427D02C2EFEFB008D3BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA427BD2C2EFEFA008D3BF8 /* Focus Ninja */;
+			targetProxy = DAA427CF2C2EFEFB008D3BF8 /* PBXContainerItemProxy */;
+		};
+		DAA427DA2C2EFEFB008D3BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA427BD2C2EFEFA008D3BF8 /* Focus Ninja */;
+			targetProxy = DAA427D92C2EFEFB008D3BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAA427E02C2EFEFB008D3BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAA427E12C2EFEFB008D3BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA427E32C2EFEFB008D3BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Ninja/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA427E42C2EFEFB008D3BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Ninja/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-Ninja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAA427E62C2EFEFB008D3BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-NinjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Ninja.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Ninja";
+			};
+			name = Debug;
+		};
+		DAA427E72C2EFEFB008D3BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-NinjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Ninja.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Ninja";
+			};
+			name = Release;
+		};
+		DAA427E92C2EFEFB008D3BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-NinjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Ninja";
+			};
+			name = Debug;
+		};
+		DAA427EA2C2EFEFB008D3BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sharktech.Focus-NinjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Ninja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA427B92C2EFEFA008D3BF8 /* Build configuration list for PBXProject "Focus Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA427E02C2EFEFB008D3BF8 /* Debug */,
+				DAA427E12C2EFEFB008D3BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA427E22C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA427E32C2EFEFB008D3BF8 /* Debug */,
+				DAA427E42C2EFEFB008D3BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA427E52C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus NinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA427E62C2EFEFB008D3BF8 /* Debug */,
+				DAA427E72C2EFEFB008D3BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA427E82C2EFEFB008D3BF8 /* Build configuration list for PBXNativeTarget "Focus NinjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA427E92C2EFEFB008D3BF8 /* Debug */,
+				DAA427EA2C2EFEFB008D3BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA427B62C2EFEFA008D3BF8 /* Project object */;
+}
